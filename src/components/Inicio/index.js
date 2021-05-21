@@ -16,7 +16,6 @@ export function Inicio() {
 
   const activebars = useCallback(() => {
     setBars(!bars)
-    console.log(bars)
   }, [bars])
 
   return (

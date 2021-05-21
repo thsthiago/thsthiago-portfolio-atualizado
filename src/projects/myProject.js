@@ -68,19 +68,7 @@ const projetos = [
   }
 ]
 
-export default function handler(req, res) {
-  try {
-    const { method } = req
-    const { project } = req.query
-
-    if (method === 'GET') {
-      const projeto = projetos.filter((item) => item.titulo === project)
-
-      res.status(200).json(projeto)
-    } else {
-      res.status(405).json({ message: 'Não aceita "POST"' })
-    }
-  } catch (err) {
-    res.status(500).json({ statusCode: 500, message: err.message })
-  }
+export const myProject = (name) => {
+  const projeto = projetos.filter((item) => item.titulo === name)
+  return projeto
 }

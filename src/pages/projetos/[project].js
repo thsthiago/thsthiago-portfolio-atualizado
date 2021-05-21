@@ -4,8 +4,10 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import { useCallback, useState } from 'react'
 import { Footer } from '../../components/Footer'
+import { myProject } from '../../projects/myProject'
 import Head from 'next/head'
-import api from '../../services/api'
+import axios from 'axios'
+import { myProjects } from '../../projects/myProjects'
 
 export default function Project({ projects }) {
   const [img, setImg] = useState(0)
@@ -95,7 +97,7 @@ export default function Project({ projects }) {
 }
 
 export const getStaticPaths = async () => {
-  const { data } = await api.get('projetos/projetos')
+  const data = myProjects()
 
   const paths = data.map((project) => {
     return {
@@ -114,7 +116,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (ctx) => {
   const { project } = ctx.params
 
-  const { data } = await api.get(`projetos/${project}`)
+  const data = myProject(project)
 
   const projects = {
     titulo: data[0].titulo,
