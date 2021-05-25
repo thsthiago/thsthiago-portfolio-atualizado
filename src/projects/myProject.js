@@ -65,6 +65,27 @@ const projetos = [
       '/projetos/projeto 4/img3.svg'
     ],
     links: ['https://github.com/thsthiago/cartour']
+  },
+  {
+    id: 5,
+    titulo: 'Todo Dev',
+    descricao: `Lists são listas de todas as tarefas que você precisa realizar, ou seja, elas listam tudo que você tem a fazer, com as tarefas mais importantes no topo, e as tarefas menos importantes na parte inferior da lista.<br />
+      Esse projeto foi desenvolvido com as tecnologias que venho estudado ultimamente, para fixar o que venho aprendendo.`,
+    icons: [
+      '/icons/reactjs.svg',
+      '/icons/typescript.svg',
+      '/icons/node.svg',
+      '/icons/postgresql.svg'
+    ],
+    tecnologias: ['React JS', 'Typescript', 'Node Js', 'PostgreSql'],
+    images: [
+      '/projetos/projeto 5/img1.gif',
+      '/projetos/projeto 5/img2.svg',
+      '/projetos/projeto 5/img3.svg',
+      '/projetos/projeto 5/img4.svg',
+      '/projetos/projeto 5/img5.svg'
+    ],
+    links: ['https://github.com/thsthiago/todo_dev']
   }
 ]
 
