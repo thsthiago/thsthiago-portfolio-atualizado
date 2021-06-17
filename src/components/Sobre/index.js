@@ -21,9 +21,9 @@ export function Sobre() {
 
           <p>
             <span>
-              Desenvolvedor Web, apaixonado por <strong>tecnologia</strong>,{' '}
-              <strong>café</strong>, <strong>games</strong> e{' '}
-              <strong>muita música</strong>.
+              Desenvolvedor Front-end, apaixonado por{' '}
+              <strong>tecnologia</strong>, <strong>café</strong>,{' '}
+              <strong>games</strong> e <strong>muita música</strong>.
             </span>
             <span>
               Cursando <strong>Análise e Desenvolvimento de Sistemas</strong>{' '}
@@ -31,7 +31,7 @@ export function Sobre() {
             </span>
             <span>
               Em busca de uma oportunidade de{' '}
-              <strong>estágio como Desenvolvedor Web</strong>.
+              <strong>estágio/júnior como Desenvolvedor Front-end</strong>.
             </span>
           </p>
         </div>

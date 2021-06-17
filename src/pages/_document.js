@@ -17,10 +17,23 @@ export default class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Thiago Cabral | Desenvolvedor Web"
+            content="Thiago Cabral | Desenvolvedor Front-end"
           />
-          <meta name="keywords" content="Portfólio, Programação" />
+          <meta
+            name="keywords"
+            content="Portfólio, Programação, Desenvolvedor Front-end, Front-end, Desenvolvedor Web"
+          />
           <meta name="author" content="Thiago Cabral" />
+          <meta
+            property="og:title"
+            content="Thiago Cabral | Desenvolvedor Front-end"
+          />
+          <meta property="og:image" content="/assets/SEO.png" />
+          <meta
+            property="og:description"
+            content="Desenvolvedor Front-end, apaixonado por tecnologia, café, games e muita música."
+          />
+          <meta property="og:url" content="https://thiagocabral.vercel.app/" />
         </Head>
         <body>
           <Main></Main>

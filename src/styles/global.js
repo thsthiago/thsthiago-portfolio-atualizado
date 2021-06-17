@@ -43,4 +43,9 @@ export default createGlobalStyle`
     background: #c33afc;
     border-radius: 8px;
   }
+
+  img, svg {
+    user-select: none;
+  }
+
 `

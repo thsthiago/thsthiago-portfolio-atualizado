@@ -168,6 +168,7 @@ export const Header = styled.header`
 `
 
 export const Container = styled.div`
+  user-select: none;
   width: 100%;
   height: 100vh;
   min-height: 450px;

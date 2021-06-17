@@ -74,7 +74,7 @@ export function Inicio() {
         <div>
           <div>
             <h1>Thiago Cabral</h1>
-            <h3>Desenvolvedor Web</h3>
+            <h3>Desenvolvedor Front-end</h3>
             <div>
               <a target="_blank" href="https://github.com/thsthiago">
                 <FaGithub />
